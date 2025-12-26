@@ -4,30 +4,35 @@ A lightweight native macOS tool to wrap any website into a standalone desktop ap
 
 [中文文档](README_CN.md)
 
-## ✨ Features
+## Features
 
-- 🚀 **Native Swift** - 10x faster than Electron, using native WKWebView
-- 💾 **Lightweight** - 1/10 memory usage compared to Electron
-- 🎨 **Customizable** - Custom website URL and app name
-- 🔧 **Easy to Use** - GUI configuration, no coding required
-- 📦 **Open Source** - MIT License, completely free
-- 🎯 **Menu Bar** - Quick access, no Dock space needed
-- ⌨️ **Keyboard Shortcuts** - Full keyboard support
-- 🔒 **Privacy** - All data stored locally
+- **Native Swift** - 10x faster than Electron, using native WKWebView
+- **Lightweight** - 1/10 memory usage compared to Electron
+- **Customizable** - Custom website URL and app name
+- **Easy to Use** - GUI configuration, no coding required
+- **Open Source** - MIT License, completely free
+- **Menu Bar** - Quick access, no Dock space needed
+- **Keyboard Shortcuts** - Full keyboard support
+- **Privacy** - All data stored locally
 
-## 🚀 Quick Start
+## Quick Start
 
-### Requirements
+### Download Pre-built App (Recommended)
 
-- macOS 15.6+
-- Xcode 17.0+
+1. Download the latest `WebAppWrapper_v1.0.0.dmg` from [Releases](https://github.com/ijson-projects/WebAppWrapper/releases)
+2. Open the DMG file
+3. Drag `WebAppWrapper.app` to the Applications folder
+4. Right-click the app and select "Open" (first time only)
+5. Click the gear icon ⚙️ to configure your website
 
 ### Build from Source
+
+**Requirements**: macOS 15.6+, Xcode 17.0+
 
 ```bash
 # Clone repository
 git clone https://github.com/ijson-projects/WebAppWrapper.git
-cd webapp-wrapper
+cd WebAppWrapper
 
 # Build application
 chmod +x package.sh
@@ -38,11 +43,11 @@ chmod +x create_dmg.sh
 ./create_dmg.sh
 ```
 
-## 📖 Usage
+## Usage
 
 ### Configure Website
 
-1. Click the gear icon ⚙️ in the toolbar
+1. Click the gear icon in the toolbar
 2. Enter website URL (e.g., `https://www.example.com`)
 3. Enter application name
 4. Click "Save"
@@ -56,7 +61,7 @@ chmod +x create_dmg.sh
 - `⌘ + ,` - Settings
 - `⌘ + ⌥ + I` - Developer Tools
 
-## 🎨 Custom Icons
+## Custom Icons
 
 Place your icon files in `custom_icons/`:
 
@@ -65,7 +70,7 @@ Place your icon files in `custom_icons/`:
 
 See [custom_icons/README.md](custom_icons/README.md) for details.
 
-## 🆚 Comparison
+## Comparison
 
 | Feature | WebApp Wrapper | Nativefier | Electron Apps |
 |---------|---------------|------------|---------------|
@@ -75,20 +80,20 @@ See [custom_icons/README.md](custom_icons/README.md) for details.
 | Package Size | ~5MB | ~100MB | ~100MB |
 | Native Experience | ✅ | ❌ | ❌ |
 
-## 📝 License
+## License
 
 MIT License - See [LICENSE](LICENSE) file
 
-## ⚠️ Disclaimer
+## Disclaimer
 
 This is a general-purpose tool for learning and research. Users are responsible for their own use.
 
-## 🙏 Credits
+## Credits
 
 - Thanks to Apple for the WKWebView framework
 - Inspired by Nativefier, Fluid, and similar tools
 
 ---
 
-⭐ If this helps you, please give it a Star!
+If this helps you, please give it a Star!
 

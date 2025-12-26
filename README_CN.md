@@ -4,30 +4,35 @@
 
 [English](README.md)
 
-## ✨ 特性
+## 特性
 
-- 🚀 **原生 Swift** - 使用原生 WKWebView，比 Electron 快 10 倍
-- 💾 **轻量级** - 内存占用仅 Electron 的 1/10
-- 🎨 **可自定义** - 支持自定义网站 URL 和应用名称
-- 🔧 **简单易用** - 图形界面配置，无需编程
-- 📦 **开源免费** - MIT 许可证，完全免费
-- 🎯 **菜单栏常驻** - 快速访问，不占用 Dock 空间
-- ⌨️ **快捷键支持** - 完整的键盘快捷键
-- 🔒 **隐私保护** - 所有数据本地存储
+- **原生 Swift** - 使用原生 WKWebView，比 Electron 快 10 倍
+- **轻量级** - 内存占用仅 Electron 的 1/10
+- **可自定义** - 支持自定义网站 URL 和应用名称
+- **简单易用** - 图形界面配置，无需编程
+- **开源免费** - MIT 许可证，完全免费
+- **菜单栏常驻** - 快速访问，不占用 Dock 空间
+- **快捷键支持** - 完整的键盘快捷键
+- **隐私保护** - 所有数据本地存储
 
-## 🚀 快速开始
+## 快速开始
 
-### 环境要求
+### 下载预编译版本（推荐）
 
-- macOS 15.6+
-- Xcode 17.0+
+1. 从 [Releases](https://github.com/ijson-projects/WebAppWrapper/releases) 下载最新的 `WebAppWrapper_v1.0.0.dmg`
+2. 打开 DMG 文件
+3. 将 `WebAppWrapper.app` 拖到 Applications 文件夹
+4. 右键点击应用，选择"打开"（仅首次需要）
+5. 点击齿轮图标 ⚙️ 配置你的网站
 
 ### 从源码构建
 
+**环境要求**：macOS 15.6+，Xcode 17.0+
+
 ```bash
 # 克隆仓库
-git clone https://github.com/yourusername/webapp-wrapper.git
-cd webapp-wrapper
+git clone https://github.com/ijson-projects/WebAppWrapper.git
+cd WebAppWrapper
 
 # 构建应用
 chmod +x package.sh
@@ -38,11 +43,11 @@ chmod +x create_dmg.sh
 ./create_dmg.sh
 ```
 
-## 📖 使用说明
+## 使用说明
 
 ### 配置网站
 
-1. 点击工具栏的齿轮图标 ⚙️
+1. 点击工具栏的齿轮图标
 2. 输入网站地址（如 `https://www.ijson.com`）
 3. 输入应用名称
 4. 点击"保存"
@@ -56,7 +61,7 @@ chmod +x create_dmg.sh
 - `⌘ + ,` - 设置
 - `⌘ + ⌥ + I` - 开发者工具
 
-## 🎨 自定义图标
+## 自定义图标
 
 将图标文件放在 `custom_icons/` 目录：
 
@@ -65,7 +70,7 @@ chmod +x create_dmg.sh
 
 详见 [custom_icons/README_CN.md](custom_icons/README_CN.md)
 
-## 🆚 与其他工具对比
+## 与其他工具对比
 
 | 特性 | WebApp Wrapper | Nativefier | Electron Apps |
 |------|---------------|------------|---------------|
@@ -75,20 +80,20 @@ chmod +x create_dmg.sh
 | 包大小 | ~5MB | ~100MB | ~100MB |
 | 原生体验 | ✅ | ❌ | ❌ |
 
-## 📝 许可证
+## 许可证
 
 MIT License - 查看 [LICENSE](LICENSE) 文件
 
-## ⚠️ 免责声明
+## 免责声明
 
 本项目是通用工具，用于学习研究。用户需自行承担使用责任。
 
-## 🙏 致谢
+## 致谢
 
 - 感谢 Apple 提供的 WKWebView 框架
 - 灵感来自 Nativefier、Fluid 等工具
 
 ---
 
-⭐ 如果有帮助，请给个 Star！
+如果有帮助，请给个 Star！
 
