@@ -48,7 +48,7 @@ chmod +x create_dmg.sh
 ### Configure Website
 
 1. Click the gear icon in the toolbar
-2. Enter website URL (e.g., `https://www.example.com`)
+2. Enter website URL (e.g., `https://www.ijson.com`)
 3. Enter application name
 4. Click "Save"
 
