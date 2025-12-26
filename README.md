@@ -26,7 +26,7 @@ A lightweight native macOS tool to wrap any website into a standalone desktop ap
 
 ```bash
 # Clone repository
-git clone https://github.com/yourusername/webapp-wrapper.git
+git clone https://github.com/ijson-projects/WebAppWrapper.git
 cd webapp-wrapper
 
 # Build application
